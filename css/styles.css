@@ -207,19 +207,57 @@ body {
 }
 
 /*MAIN BODY*/
+.overAll_Container{
+    margin: 3.5rem auto;
+    padding:0 5rem 0 5rem;
+}
+
+/*dropDown_Starts*/
+.main-bodyTag{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+
+.free-photos{
+    font-size: 2rem;
+    font-family: 'Ysabeau Office', sans-serif;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #2c343e;
+}
+
+.dropdown-inlineWrapper{
+    padding: 1.1rem;
+}
+
+.select_Btn{
+    padding: 1rem 1rem 1rem 1rem;
+    color: #000;
+    border-color: #dfdfe0;
+    background: #fff;
+    font-size:1.2rem;
+    font-family: 'Ysabeau Office', sans-serif;
+    text-decoration: none;
+}
+
+.clickable_button{
+background-color:#fff ;
+}
+
+/*dropDown_End*/
 
 .grid-container{
     display: grid;
     grid-template-columns: repeat(6, 1fr );
     grid-template-rows: repeat(13, 1fr) ;
     grid-gap: 2rem;
-    padding:3rem;
-
 }
 
-div{
+/*div{
     display: grid;
-}
+}*/
 
 .indiv-images {
     height: 100%;
